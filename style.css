@@ -1,0 +1,19 @@
+/* Variables */
+:root {
+    --main-background-color: #2d3440;
+    --main-font-color: #fcee63;
+}
+
+/* Elements */
+body {
+    background-color: var(--main-background-color);
+}
+
+h1 {
+    color: var(--main-font-color);
+}
+
+/* Classes */
+
+
+/* Id's */
