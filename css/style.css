@@ -1,0 +1,67 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,400&display=swap');
+
+/* Variables */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-background-color: #2d3440;
+    --main-font-color: #fcee63;
+}
+
+/* Elements */
+body {
+    background-color: var(--main-background-color);
+}
+
+h1 {
+    color: var(--main-font-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+a,
+button {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-font-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/* Classes */
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_flex {
+    display: inline-block;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--main-font-color);
+    color: var(--main-background-color);
+    border: none;
+    border-radius: 50px;
+
+}
+
+/* Id's */
