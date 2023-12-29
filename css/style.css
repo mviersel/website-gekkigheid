@@ -9,7 +9,7 @@
 
 :root {
     --main-background-color: #2d3440;
-    --main-font-color: #fcee63;
+    --main-font-color: #d4949d;
 }
 
 /* Elements */
@@ -34,6 +34,13 @@ button {
     color: var(--main-font-color);
 }
 
+button {
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -42,6 +49,8 @@ header {
 }
 
 /* Classes */
+
+/* Nav items */
 .logo {
     font-size: 22px;
     font-weight: 800;
@@ -55,13 +64,71 @@ header {
     display: inline-block;
 }
 
-button {
-    padding: 9px 25px;
+.nav_button {
     background-color: var(--main-font-color);
     color: var(--main-background-color);
-    border: none;
-    border-radius: 50px;
+}
+
+/* Hero items */
+
+.wrapper {
+    width: 55vw;
+    margin-inline: auto;
+    border: 3px solid blue;
+}
+
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1703631531141-c5bfe28c02e3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 50svh;
+    /* width: 100vw; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_text {
+text-align: center;
+}
+
+.hero_text h1 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    
+}
+
+.hero_text p {
+    padding-bottom: 20px;
+}
+
+.hero_buttons {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 15px;
+}
+
+.button_1 {
+    color: var(--main-background-color);
+    background-color: var(--main-font-color);
+}
+
+.button_1:hover {
+    opacity: .8;
+}
+
+.button_2 {
+    color: var(--main-font-color);
+    background-color: var(--main-background-color);
+}
+
+.button_2:hover {
+    opacity: .8;
 
 }
+
 
 /* Id's */
